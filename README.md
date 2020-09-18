@@ -1,4 +1,1 @@
-# rsschool-cv
-new text
-hello world
-123
+https://github.com/MadFoxBLR/rsschool-cv/blob/gh-pages/cv.md
