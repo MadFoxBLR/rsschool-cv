@@ -1,0 +1,43 @@
+body {
+    background-image: url(./img/texture.jpg);
+}
+h1 {
+    color: #333;
+   
+    text-align: center;
+    padding-top: 30px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.312);
+    padding: 10px 15px;
+    font-family: 'Architects Daughter', cursive;
+
+    
+   
+}
+
+
+.header {
+   position: relative;
+}
+.AboutMe {
+    background-color: #333;
+    padding: 10px 21px;
+    color: darkgray;
+    position: absolute;
+    top: 66%;
+    left: 0;
+}
+.MyPhoto {
+opacity: 0.6;
+}
+
+.MyName {
+    text-align: center;
+    font-size: 24px;
+}
+.MyPhone span{
+    color: orange;
+}
