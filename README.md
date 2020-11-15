@@ -5,3 +5,5 @@ https://rolling-scopes-school.github.io/madfoxblr-JS2020Q3/Momentum/
 https://madfoxblr.github.io/Shelter/Shelter/pages/main/index.html
 
 https://rolling-scopes-school.github.io/anastasiya-asenchik-JS2020Q3/momentum/
+
+https://rolling-scopes-school.github.io/madfoxblr-JS2020Q3/gem-puzzle/
