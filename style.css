@@ -1,14 +1,26 @@
 body {
     background-image: url(./img/texture.jpg);
     background-size: cover;
+    background-attachment: fixed;
+   
 }
 
 h1 {
-    color: #333;
+    color: rgb(255, 255, 255);
     text-align: center;
+    text-transform: uppercase;
     padding-top: 30px;
+    letter-spacing: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+    height: 100%;
 }
 .container {
+    height: 100%;
+    flex: 1 1 auto;
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.312);
@@ -18,16 +30,20 @@ h1 {
 }
 
 .section {
-   position: relative;
-   display: flex;
+   
+    position: relative;
+  
    justify-content: space-between;
+}
+.me{
+    display: flex;
 }
 .AboutMe {
     background-color: #333;
-    padding: 10px 22px;
+    padding: 10px 19px;
     color: darkgray;
     position: absolute;
-    top: 68%;
+    top: 24%;
     left: 0;
 }
 .myGoal {
@@ -45,28 +61,56 @@ h1 {
 }
 .myGoal p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 .MyPhoto {
-opacity: 0.6;
+opacity: 0.7;
 }
 
 .MyName {
     text-align: center;
     font-size: 24px;
 }
-.MyPhone span{
+.MyPhone {
+    color: rgba(221, 220, 220, 0.7);
+    font-size: 19px;
+    text-decoration: none;
+    transition: color .8s ease;
+}
+
+.MyPhone:hover {
+    transition: color .4s ease;
     color: orange;
 }
 
 
 .myScills {
+   
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
     font-size: 30px;
+    
 }
 
 .scills li{
     padding: 4px;
     display: inline; /* Отображать как строчный элемент */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.fotter__info {
+    
+   
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+  
+   
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0;
+    letter-spacing: 10px;
+   
 }
