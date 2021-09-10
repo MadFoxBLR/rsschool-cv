@@ -8,6 +8,3 @@ https://rolling-scopes-school.github.io/anastasiya-asenchik-JS2020Q3/momentum/
 
 https://rolling-scopes-school.github.io/madfoxblr-JS2020Q3/gem-puzzle/
 
-Check this one 
-and now 
-what do this mean
